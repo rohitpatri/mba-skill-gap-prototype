@@ -4,3 +4,4 @@ PyMuPDF
 scikit-learn
 reportlab
 python-dotenv
+plotly
