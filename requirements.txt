@@ -1,6 +1,8 @@
 streamlit
 openai
+python-dotenv
 PyMuPDF
 scikit-learn
-reportlab
-python-dotenv
+plotly
+serpapi
+pandas
