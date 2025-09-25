@@ -4,5 +4,5 @@ python-dotenv
 PyMuPDF
 scikit-learn
 plotly
-serpapi==0.1.5
+serpapi
 pandas
