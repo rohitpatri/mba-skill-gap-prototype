@@ -5,7 +5,7 @@ import openai
 from sklearn.metrics.pairwise import cosine_similarity
 from dotenv import load_dotenv
 import plotly.graph_objects as go
-from serpapi import GoogleSearch
+from serpapi.google_search import GoogleSearch
 
 # --- Load API keys ---
 load_dotenv()
@@ -207,3 +207,4 @@ if st.session_state.gap_analysis:
 if st.session_state.weekly_plan:
     st.write("### Weekly Plan")
     st.write(st.session_state.weekly_plan)
+
