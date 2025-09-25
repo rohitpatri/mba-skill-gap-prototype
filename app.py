@@ -207,5 +207,3 @@ if st.session_state.gap_analysis:
 if st.session_state.weekly_plan:
     st.write("### Weekly Plan")
     st.write(st.session_state.weekly_plan)
-
-
